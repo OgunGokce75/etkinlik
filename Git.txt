@@ -1,0 +1,125 @@
+git config --global user.name "OSMAN DUALI"
+git config --global user.email "osmandvali@gmail.com"
+
+git init
+git status
+git add .
+git commit -m "yapılan değişiklikler yazılır"
+
+git remote add origin https://github.com/mosmduali/Murat-Yucedag-A-dan-Z-ye-Egitim-Seti.git
+
+git push -u origin master
+-------------------------------------------------------------------------------------------------------
+
+
+		KONSOL KOMUTLARI
+-------------------------------------------------------------------------------------------	
+ls - O anki klasörün içeriğini listeler
+	ls
+ls - Gizl klasörleri gösterir
+	ls -la
+cd - Gösterilen konuma gidilir
+	cd "uzantı veya klasör ismi"
+cd - Bir önceki klasöre geri gel demek
+	cd ..
+rm - Silme işlemini yapar (Sadece belge ve dosyaları siler)
+	rm "isim.uzantı"
+rm - Klasör silme işlemi yapar
+	rm -rf "klasör ismi" 
+clear - Komut satırını temizler
+	clear 
+mkdir - Klasör oluşturur
+	mkdir "klasör ismi"
+touch - Bir belge oluşturur
+	touch "text.txt or isim.exe gibi"
+pwd - Güncel olarak bulunduğun klasörü gösterir
+	pwd
+
+
+		GIT KOMUTLARI
+-------------------------------------------------------------------------------------------	
+git - Bu komut yaptılan projenin veya değiştirilen kısımların kimin yaptığını belirtir
+	config --global user.name "isim Soyisim"
+git - Bu komut yaptılan projenin veya değiştirilen kısımların kimin yaptığını belirtir
+	config --global user.email osmandvali@gmail.com
+git - İsim ve soy ismin tanımlanıp tanımlanmadığının kontrolünü sağlar
+	git config user.name
+git - email in tanımlanıp tanımlanmadığının kontrolünü sağlar
+	git config user.email 
+git - Sürüm kontrol sisteminin kurulu olup olmadığının kontrolünü sağlar
+	git status
+git - Sürüm kontrol sistem dosyalarının eklenmesini sağlar
+	git init 
+git - Sürüm kontrolünü yapmak için kullanırız
+	git add "File name"
+git - Sürüm kontrolünü yapmak için kullanırız (Tümü için)
+	git add .
+git - Yapılan commit leri gösterir
+	git log
+git - Yapılan değişiklilikleri bildiririz
+	git commit -m "Yapılan işlemler hakkında yazı"
+touch - Bu txt belgesine yazılan isimleri git kaydetmez
+	touch .gitignore
+git - Dallanan projeleri gösterir
+	git branch
+git - Projeye yeni dal eklenir
+	git branch "Yeni Dal ismi"
+git - Olan dallardan ana dal seçimi
+	git switch "Dal ismi"
+git - Dalları birleştirme işine yarar
+	git merge "Dal ismi"
+git - Olmasını istediğimiz branch ismi girilir
+	git branch -M "branch ismi"
+git - GitHub da ki repon ile baplantı kurar
+	git remote add "{0}" "url" - 0 için Değişken ismi gibi düşünebilirsin
+git - GitHub repoma yapılan projeyi gönderir
+	git push -u "{değişken ismi}" "branch ismi" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
